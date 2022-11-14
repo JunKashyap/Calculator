@@ -1,0 +1,19 @@
+input {
+    width: 130px;
+    height: 20px;
+    background-color: lightgrey;
+}
+
+button {
+    border-width: 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 100px;
+    /* padding: 5px; */
+    text-align: center;
+    font-size: small;
+}
+
+button:hover {
+    background-color: aqua;
+}
