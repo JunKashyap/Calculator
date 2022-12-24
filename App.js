@@ -22,6 +22,6 @@ function callclr() {
 }
 function callans() {
     let temp = display.value
-    display.value = eval(temp)
+    display.value = (eval(temp))
 
 }

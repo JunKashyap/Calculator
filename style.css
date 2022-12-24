@@ -1,6 +1,20 @@
+body{
+    position: fixed;
+    top : 5%;
+    left: 40%;
+}
+
+.calculator{
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 280px;
+    padding: 20px 3px 20px 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.6);
+}
 input {
-    width: 130px;
-    height: 20px;
+    width: 150px;
+    height: 30px;
     background-color: lightgrey;
 }
 
@@ -15,5 +29,5 @@ button {
 }
 
 button:hover {
-    background-color: aqua;
+    background-color: rgb(71, 138, 138);
 }
